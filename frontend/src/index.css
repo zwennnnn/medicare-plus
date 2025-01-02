@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.testimonial-slider .slick-slide {
+  padding: 10px;
+}
+
+.testimonial-slider .slick-dots li button:before {
+  color: #0ea5e9;
+}
+
+.testimonial-slider .slick-dots li.slick-active button:before {
+  color: #0284c7;
+}
+
+.testimonial-slider .slick-prev:before,
+.testimonial-slider .slick-next:before {
+  color: #0ea5e9;
+  font-size: 24px;
+}
+
+.testimonial-slider {
+  margin: 0 -10px;
+}
+
+/* Grid pattern background */
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, #e5e7eb 1px, transparent 1px),
+    linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Form element transitions */
+select, input, textarea {
+  transition: all 0.2s ease-in-out;
+}
+
+select:hover, input:hover, textarea:hover {
+  border-color: #0ea5e9;
+}
